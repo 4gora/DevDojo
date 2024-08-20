@@ -1,6 +1,6 @@
 package POO84classesabstratas;
 
-import POO84classesabstratas.entities.Funcionario;
+import POO84classesabstratas.entities.Desenvolvedor;
 import POO84classesabstratas.entities.Gerente;
 
 public class FuncionarioTest01 {

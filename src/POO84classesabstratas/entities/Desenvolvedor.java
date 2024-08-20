@@ -1,6 +1,4 @@
-package POO84classesabstratas;
-
-import POO84classesabstratas.entities.Funcionario;
+package POO84classesabstratas.entities;
 
 public class Desenvolvedor extends Funcionario {
 
