@@ -1,16 +1,18 @@
-package Excecoes95.runtime.test;
+package Excecoes95.exception.test;
 
 import java.io.File;
 import java.io.IOException;
 
 public class ExceptionTest01 {
     public static void main(String[] args) {
-
+        criarNovoArquivo();
     }
-    private static void CriarNovoArquivo(){
+
+    private static void criarNovoArquivo() {
         File file = new File("arquivo\\teste.txt");
         try {
-            file.createNewFile();
+            boolean wasCreated = file.createNewFile();
+            System.out.println("Arquivo criado " + wasCreated);
         } catch (IOException e) {
             throw new RuntimeException(e);
         }
