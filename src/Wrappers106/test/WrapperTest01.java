@@ -5,7 +5,7 @@ public class WrapperTest01 {
 
         byte byteP = 1;
         short shortP = 1;
-        int inP = 1;
+        int intP = 1;
         long longP = 1;
         float floatP = 1;
         double doubleP = 10D;
@@ -14,7 +14,7 @@ public class WrapperTest01 {
 
         Byte byteW = 1;
         Short shortW = 1;
-        Integer inW = 1;
+        Integer intW = 1;
         Long longW = 10L;
         Float floatW = 10F;
         Double doubleW = 10D;
@@ -26,6 +26,15 @@ public class WrapperTest01 {
         int a = 5;
         modificar(a);
         System.out.println(a);
+
+        // video 107 - Wrappers pt 2
+
+        Integer intW2 = 1; // autoboxing
+        int i = intW2; // unboxing
+        Integer intW3 = Integer.parseInt("4");
+        Boolean verdadeiro = Boolean.parseBoolean("true");
+        System.out.println(verdadeiro);
+
 
     }
     public static void modificar(int x) {
