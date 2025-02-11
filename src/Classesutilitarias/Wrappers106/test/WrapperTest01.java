@@ -1,4 +1,4 @@
-package Wrappers106.test;
+package Classesutilitarias.Wrappers106.test;
 // video 106 - wrappers pt 01
 public class WrapperTest01 {
     public static void main(String[] args) {
