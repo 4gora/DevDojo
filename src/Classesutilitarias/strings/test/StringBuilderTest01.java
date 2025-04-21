@@ -7,9 +7,9 @@ public class StringBuilderTest01 {
         System.out.println(nome);
 
         StringBuilder sb = new StringBuilder("William Suane"); // capacidade padrão do StringBuilder é 16
-        sb.append(" DevDojo").append(" Academy");  // o método .append acaba se tornando muito verboso se usado muitas vezes
-        // é necessario usar o método .append para concatenar uma StringBuilder
-        // O método .append não cria nada no pool de Strings
+        sb.append(" DevDojo").append(" Academy");  // o mét0do .append acaba se tornando muito verboso se usado muitas vezes
+        // é necessario usar o mét0do .append para concatenar uma StringBuilder
+        // O mét0do .append não cria nada no pool de Strings
 
         sb.reverse();
         System.out.println(sb);
