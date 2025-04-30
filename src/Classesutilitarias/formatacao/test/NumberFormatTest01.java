@@ -5,7 +5,9 @@ import java.util.Locale;
 
 // aula 116
 public class NumberFormatTest01 {
+    @SuppressWarnings("deprecation")
     public static void main(String[] args) {
+        @SuppressWarnings("unused")
         Locale localeDefault = Locale.getDefault();
         Locale localeBR = new Locale("pt", "PT");
         Locale localeJP = Locale.JAPAN;

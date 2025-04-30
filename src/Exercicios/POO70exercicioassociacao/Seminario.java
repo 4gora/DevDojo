@@ -1,6 +1,5 @@
 package Exercicios.POO70exercicioassociacao;
 
-import java.util.Arrays;
 
 public class Seminario {
     private String titulo;

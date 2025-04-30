@@ -20,6 +20,7 @@ public class StringPerformanceTest01 {
     }
 
     private static void concatString(int tamanho) {
+        @SuppressWarnings("unused")
         String texto = "";
         for (int i = 0; i < tamanho; i++) { // Strings em grandes quantidades demoram para executar
             texto += i;

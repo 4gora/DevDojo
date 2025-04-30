@@ -8,6 +8,7 @@ import Excecoes95.exception.dominio.Pessoa;
 
 public class SobrescritaComExceptionTest01 {
     public static void main(String[] args) {
+        @SuppressWarnings("unused")
         Pessoa pessoa = new Pessoa();
         Funcionario funcionario = new Funcionario();
 

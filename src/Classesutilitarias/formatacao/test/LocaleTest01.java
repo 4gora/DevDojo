@@ -6,6 +6,7 @@ import java.util.Locale;
 
 // video 115 - Locale
 public class LocaleTest01 {
+    @SuppressWarnings("deprecation")
     public static void main(String[] args) {
         Locale localeItaly = new Locale("it", "IT");
         Locale localeSwitzerland = new Locale("it", "CH");

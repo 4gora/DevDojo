@@ -11,6 +11,8 @@ public class ProdutoTest02 {
         System.out.println(produto.getValor());
 
         Produto produto2 = new Tomate("Tomate", 10.00);
+        System.out.println(produto2.getNome());
+        System.out.println(produto2.getValor());
 
 
     }

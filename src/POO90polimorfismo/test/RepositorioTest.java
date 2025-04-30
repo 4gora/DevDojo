@@ -1,7 +1,6 @@
 package POO90polimorfismo.test;
 
 import POO90polimorfismo.repositorio.Repositorio;
-import POO90polimorfismo.servico.RepositorioBancoDeDados;
 import POO90polimorfismo.servico.RepositorioMemoria;
 
 import java.util.ArrayList;

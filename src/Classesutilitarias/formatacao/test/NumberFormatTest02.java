@@ -5,7 +5,9 @@ import java.util.Locale;
 
 // aula 117 - formatação de moedas
 public class NumberFormatTest02 {
-    public static void main(String[] args) {
+    @SuppressWarnings("deprecation")
+	public static void main(String[] args) {
+        @SuppressWarnings("unused") // Suprime o aviso de variável não utilizada para 'localeDefault'
         Locale localeDefault = Locale.getDefault();
         Locale localeBR = new Locale("pt", "PT");
         Locale localeJP = Locale.JAPAN;
@@ -20,6 +22,5 @@ public class NumberFormatTest02 {
             System.out.print(numberFormat.getMaximumFractionDigits());
             System.out.println(numberFormat.format(valor));
         }
-
     }
 }

@@ -15,21 +15,24 @@ public class LoginInvalidoExceptionTest01 {
             e.printStackTrace();
         }
     }
+
     private static void logar() throws LoginInvalidoException { // precisa de throws
-        Scanner sc = new Scanner(System.in);
-        String usernameDB = "Goku";
-        String senhaDB = "ssj";
+        try (Scanner sc = new Scanner(System.in)) {
+            String usernameDB = "Goku";
+            String senhaDB = "ssj";
 
-        System.out.println("Usuário");
-        String usernameDigitado = sc.nextLine();
-        System.out.println("Senha");
-        String senhaDigitada = sc.nextLine();
+            System.out.println("Usuário");
+            String usernameDigitado = sc.nextLine();
+            System.out.println("Senha");
+            String senhaDigitada = sc.nextLine();
 
-    // verificando se o usuário digitado e o usuário do "banco de dados" são iguais.
-        if(!usernameDB.equals(usernameDigitado) || !senhaDB.equals(senhaDigitada)) {
-            throw new LoginInvalidoException("Usuário ou senha inválidos");
-            // exceção que precisa ser tratada, precisa usar throws
+            // verificando se o usuário digitado e o usuário do "banco de dados" são iguais.
+            if (!usernameDB.equals(usernameDigitado) || !senhaDB.equals(senhaDigitada)) {
+                throw new LoginInvalidoException("Usuário ou senha inválidos");
+                // exceção que precisa ser tratada, precisa usar throws
+
+            }
+            System.out.println("Usuário logado com sucesso");
         }
-        System.out.println("Usuário logado com sucesso");
     }
 }

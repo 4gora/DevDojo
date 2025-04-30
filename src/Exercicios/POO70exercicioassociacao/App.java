@@ -7,7 +7,6 @@ public class App {
         Aluno aluno1 = new Aluno("Alessandro", 21);
         Aluno aluno2 = new Aluno("Vinicius", 21);
         Aluno aluno3 = new Aluno("Victória", 20);
-        Aluno aluno4 = new Aluno("André", 20);
 
 
         Professor professor = new Professor("Roberto","Análise combinatória");

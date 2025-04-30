@@ -1,6 +1,5 @@
 package Exercicios.POO70exercicioassociacao;
 
-import java.util.Arrays;
 
 public class Professor {
     private String nome;

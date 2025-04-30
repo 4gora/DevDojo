@@ -8,6 +8,7 @@ import POO90polimorfismo.servico.CalculadoraImposto;
 public class ProdutoTest03 {
     public static void main(String[] args) {
         Produto produto = new Computador("Ryzen 9", 3000.00);
+        CalculadoraImposto.calcularImposto(produto);
 
         Tomate tomate = new Tomate("Tomate", 10.00);
         tomate.setDataValidade("20/09/2024");
