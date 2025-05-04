@@ -39,6 +39,6 @@ public class WrapperTest01 {
 
     }
     public static void modificar(int x) {
-        x = 10; // o valor da variável original não é alterada pelo método
+        x = 10; // o valor da variável original não é alterada pelo mét0do
     }
 }
